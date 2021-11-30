@@ -77,7 +77,6 @@ const likePost = async () => {
 
             {/* Buttons */}
 
-            { session && (
                     <div className="flex justify-between px-4 pt-4">
                     <div className="flex space-x-4">
                         {
@@ -92,7 +91,6 @@ const likePost = async () => {
 
                     <BookmarkIcon className="btn"/>
                 </div>
-            )}
        
 
             {/* Caption */}
