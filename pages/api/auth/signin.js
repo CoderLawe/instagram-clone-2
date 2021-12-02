@@ -1,5 +1,5 @@
 import { getProviders, signIn as SignIntoProvider } from "next-auth/react";
-import Header from "../../components/Header";
+import Header from "../../../components/Header";
 
 
 // Running on the browser
